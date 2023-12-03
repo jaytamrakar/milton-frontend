@@ -1,6 +1,8 @@
 import React from "react";
 import Title from "../ui/buttons/Title";
 import HeadText from "../ui/headings/HeadText";
+import ReviewCard from "./ReviewCard";
+import { ReviewData } from "../../assets/data/ReviewData.js";
 
 const Testimonial = () => {
   return (
@@ -11,7 +13,9 @@ const Testimonial = () => {
           <HeadText text={"See what our users say about us"} />
         </div>
         {/* faq question and answers */}
-        <div className=""></div>
+        <div className="">
+          <ReviewCard reviews={ReviewData} />
+        </div>
       </div>
     </section>
   );

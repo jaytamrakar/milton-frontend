@@ -1,14 +1,9 @@
 # Milton Clone Frontend page
 
-
-Assingment task for making the homepage for the given website url 
-
+Assingment task for making the homepage for the given website url
 
 https://culture-breathe-337021.framer.app/
 
+Hosted link
 
-
-
-
-
-d
+https://milton-by-jay.onrender.com/
